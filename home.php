@@ -5,6 +5,7 @@
 
 <?php
 //此判斷為判定觀看此頁有沒有權限
+
 if($_SESSION['username'] != NULL)
 {
 		echo '<a href="logout.php">登出</a>  <br><br>';	

@@ -7,7 +7,7 @@ if($_SESSION['username'] != null){
 		echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email："."$id";
 		echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /"';
 		echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
-		echo '<form name="form" method="post" action="modify_finish.php">';
+		echo '<form name="form" method="post" action="modify2.php">';
 		echo '&nbsp;&nbsp;舊&nbsp;密&nbsp;碼	：<input type="text" name="oldpw" /> <br>';
 		echo '輸入密碼	：<input type="password" name="pw" /> <br>';
 		echo '確認密碼 ：<input type="password" name="pw2" /> <br>';
